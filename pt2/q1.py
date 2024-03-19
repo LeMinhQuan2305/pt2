@@ -1,0 +1,5 @@
+a  = list(map(str, input().split(', ')))
+a[1] = a[1].strip('"')
+a[2] = a[2].strip('"')
+a[0] = str(a[0]).replace(str(a[1]), str(a[2]))
+print(a[0])
